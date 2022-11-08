@@ -77,7 +77,7 @@ export default function WithSubnavigation() {
             fontSize={"sm"}
             fontWeight={400}
             variant={"link"}
-            href={"#"}
+            href={"/"}
           >
             Sign In
           </Button>
@@ -87,7 +87,7 @@ export default function WithSubnavigation() {
             fontWeight={600}
             color={"white"}
             bg={"pink.400"}
-            href={"#"}
+            href={"/"}
             _hover={{
               bg: "pink.300",
             }}
@@ -117,7 +117,7 @@ const DesktopNav = () => {
             <PopoverTrigger>
               <Link
                 p={2}
-                href={navItem.href ?? "#"}
+                href={navItem.href ?? "/"}
                 fontSize={"sm"}
                 fontWeight={500}
                 color={linkColor}
@@ -212,7 +212,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
       <Flex
         py={2}
         as={Link}
-        href={href ?? "#"}
+        href={href ?? "/"}
         justify={"space-between"}
         align={"center"}
         _hover={{
@@ -271,12 +271,12 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: "Explore Design Work",
         subLabel: "Trending Design to inspire you",
-        href: "#",
+        href: "/",
       },
       {
         label: "New & Noteworthy",
         subLabel: "Up-and-coming Designers",
-        href: "#",
+        href: "/",
       },
     ],
   },
@@ -286,21 +286,21 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: "Job Board",
         subLabel: "Find your dream design job",
-        href: "#",
+        href: "/",
       },
       {
         label: "Freelance Projects",
         subLabel: "An exclusive list for contract work",
-        href: "#",
+        href: "/",
       },
     ],
   },
   {
     label: "Learn Design",
-    href: "#",
+    href: "/",
   },
   {
     label: "Hire Designers",
-    href: "#",
+    href: "/",
   },
 ];

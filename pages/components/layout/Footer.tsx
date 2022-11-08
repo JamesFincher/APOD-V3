@@ -65,13 +65,13 @@ export default function Footer() {
         >
           <Text>Coded by James Fincher. {new Date().getFullYear()} </Text>
           <Stack direction={"row"} spacing={6}>
-            <SocialButton label={"Twitter"} href={"#"}>
+            <SocialButton label={"Twitter"} href={"/"}>
               <FaTwitter />
             </SocialButton>
-            <SocialButton label={"YouTube"} href={"#"}>
+            <SocialButton label={"YouTube"} href={"/"}>
               <FaYoutube />
             </SocialButton>
-            <SocialButton label={"Instagram"} href={"#"}>
+            <SocialButton label={"Instagram"} href={"/"}>
               <FaInstagram />
             </SocialButton>
           </Stack>
