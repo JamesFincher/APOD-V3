@@ -2,7 +2,11 @@ import React from "react";
 import Nav from "./components/layout/Nav/Nav";
 import Footer from "./components/layout/Footer";
 
-const Layout = ({ children }) => {
+type Children = {
+  children: React.ReactNode;
+};
+
+const Layout = ({ children }: Children) => {
   return (
     <>
       <Nav />
