@@ -2,7 +2,12 @@ import React, { ReactNode } from "react";
 import Nav from "./components/layout/Nav/Nav";
 import Footer from "./components/layout/Footer";
 
-const Layout = ({ children }: { children: ReactNode }) => {
+type LayoutProps = {
+  children: ReactNode;
+
+}
+
+const Layout React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Nav />
