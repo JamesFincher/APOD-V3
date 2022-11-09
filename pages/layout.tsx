@@ -4,10 +4,9 @@ import Footer from "./components/layout/Footer";
 
 type LayoutProps = {
   children: ReactNode;
+};
 
-}
-
-const Layout React.FC<LayoutProps> = ({ children }) => {
+const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Nav />
