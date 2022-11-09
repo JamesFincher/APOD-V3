@@ -9,9 +9,11 @@ type LayoutProps = {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
-      <Nav />
-      {children}
-      <Footer />
+      <div className="overflow-auto max-h-screen min-h-screen	">
+        <Nav />
+        {children}
+        <Footer />
+      </div>
     </>
   );
 };

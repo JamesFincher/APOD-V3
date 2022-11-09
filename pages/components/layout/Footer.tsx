@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="footer uppercase items-center justify-center text-xs p-4 bg-neutral text-neutral-content fixed bottom-0">
+    <footer className="footer uppercase items-center justify-center text-xs p-4 bg-base-content text-neutral-content bottom-0">
       <div className="place-items-center">
         <Link
           className="hover:underline"
