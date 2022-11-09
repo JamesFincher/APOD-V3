@@ -3,7 +3,7 @@ import Nav from "./components/layout/Nav/Nav";
 import Footer from "./components/layout/Footer";
 
 interface LayoutProps {
-  children?: ReactNode;
+  children: ReactNode;
 }
 
 const Layout = ({ children }: LayoutProps) => {
