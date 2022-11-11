@@ -1,7 +1,7 @@
 import { NextPage } from "next";
-import { ApodDataType, Props } from "pages/index.D";
 import React from "react";
 import Image from "next/image";
+import { Props, ApodDataType } from "../../../types";
 const ApodToday: NextPage<Props> = (props) => {
   const { data, error, loading } = props;
 
@@ -16,15 +16,15 @@ const ApodToday: NextPage<Props> = (props) => {
 
   return (
     <div>
-      <div className="text-center bg-base-content text-neutral-content">
+      <div className="text-center p-1.5 bg-base-content text-neutral-content">
         <h2>
           {title} <br />
         </h2>
         <h4>{date}</h4>
       </div>
       <div className="text-center bg-neutral text-neutral-content">
-        <img className="p-10" src={url} alt={title} />
-        <p>{explanation}</p>
+        <img className="p-3" src={url} alt={title} />
+        <p className="p-2.5">{explanation}</p>
       </div>
     </div>
   );
