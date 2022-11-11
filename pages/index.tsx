@@ -3,7 +3,7 @@ import { ReactElement } from "react";
 import Layout from "./layout";
 import ApodToday from "./components/APOD/ApodToday";
 import type { NextPageWithLayout } from "./_app";
-import { ApodDataType } from "./index.D";
+import { ApodDataType } from "../types";
 
 const Page: NextPageWithLayout = () => {
   const [data, setData] = useState(null);
