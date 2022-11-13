@@ -24,7 +24,7 @@ const ApodToday: NextPage<Props> = (props) => {
       </div>
       <div className="text-center bg-neutral text-neutral-content">
         <img
-          className="m-auto justify-center items-center pt-5 mx-6"
+          className="mx-auto justify-center items-center pt-5"
           src={url}
           alt={title}
         />
