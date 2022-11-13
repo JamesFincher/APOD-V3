@@ -28,7 +28,7 @@ const ApodToday: NextPage<Props> = (props) => {
           src={url}
           alt={title}
         />
-        <p className="px-5 mx-10 flex text-center justify-center">
+        <p className="p-5 mx-10 flex text-center justify-center">
           {explanation}
         </p>
       </div>
